@@ -5,13 +5,12 @@ const UseEffectChallenge = () => {
   const [preference, setPreference] = React.useState(null);
 
   const handleDados = () => {
-  
     if (preference) {
         setDados('loading'); 
     fetch(
         `https://ranekapi.origamid.dev/json/api/produto/${preference.toLowerCase()}`
       ).then((response) => response.json())
-        .then((json) => setDados(json));
+       .then((json) => setDados(json));
    
     } else {
       setDados(null);
@@ -19,9 +18,11 @@ const UseEffectChallenge = () => {
 
     console.log(dados);
   };
+
   const handlePreference = (event) => {
     setPreference(event.target.innerText);
   };
+
   React.useEffect(() => {
     if (localStorage.getItem("preference")) {
       setPreference(localStorage.getItem("preference"));
@@ -29,8 +30,11 @@ const UseEffectChallenge = () => {
   }, []);
 
   React.useEffect(() => {
-    handleDados();
-    if (preference) localStorage.setItem("preference", preference);
+    if (preference)
+    {
+        handleDados(); 
+        localStorage.setItem("preference", preference);
+    } 
   }, [preference]);
 
   return (

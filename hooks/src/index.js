@@ -8,10 +8,12 @@ import UseEffect from './UseEffect/UseEffect';
 import AfterBuildComponent from './UseEffect/AfterBuildComponent';
 import BeforeDemolishComponent from './UseEffect/BeforeDemolishComponent'; 
 import UseEffectChallenge from './UseEffect/UseEffectChallenge';
+import UseRef from './UseRef/UseRef'; 
+import SetTimeOut from './UseRef/SetTimeOut'; 
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseEffectChallenge />
+    <SetTimeOut />
   </React.StrictMode>,
   document.getElementById('root')
 );
