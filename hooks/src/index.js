@@ -13,11 +13,12 @@ import ReactDOM from 'react-dom';
 // import UseMemo from './UseMemoUseCallback/UseMemo';
 // import UseCallback from './UseMemoUseCallback/UseCallback';
 //import UseContextExample from './UseContext/UseContextExample';
-import UseContextChallenge from './UseContext/Challenge/UseContextChallenge';
+// import UseContextChallenge from './UseContext/Challenge/UseContextChallenge';
+import CustomHook from './CustomHooks/CustomHook';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseContextChallenge />
+    <CustomHook />
   </React.StrictMode>,
   document.getElementById('root')
 );
