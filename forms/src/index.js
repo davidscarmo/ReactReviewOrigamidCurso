@@ -7,11 +7,14 @@ import ReactDOM from 'react-dom';
 // import Radio from './Radio';
 // import Checkbox from './Checkbox';
 // import ChallengeCheckbox from './ChallengeCheckbox';
-import FormComponents from './FormComponents';
+// import FormComponents from './FormComponents';
+// import ValidateForm from './ValidateForm';
+import ValidateFormUsingHook from './ValidateFormUsingHook';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormComponents />
+    <ValidateFormUsingHook />
   </React.StrictMode>,
   document.getElementById('root')
 );
