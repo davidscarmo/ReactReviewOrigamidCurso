@@ -1,0 +1,19 @@
+.title, .price 
+{
+    color: #4433cc; 
+}
+
+.price {
+    font-weight: bold;
+}
+
+.buy 
+{
+    transform: rotate(90deg) translateY(-120px);
+}
+
+/* It is better use a file like global.css and import at App.js and use it globally */
+:global .container 
+{
+    max-width: 900px;
+}
