@@ -14,12 +14,12 @@ const Header = () => {
     );
     return (
         <nav>
-          <NavLink to="/" activeStyle={{color: 'totamo'}} end> 
+          <NavLink to="/" activeStyle={{color: 'tomato'}} end> 
           Home
           </NavLink>{' '} 
            |
            {' '}  
-          <NavLink to="about" activeStyle={{color: 'totamo'}}> 
+          <NavLink to="about" activeStyle={{color: 'tomato'}}> 
           Sobre
           </NavLink>  
            |

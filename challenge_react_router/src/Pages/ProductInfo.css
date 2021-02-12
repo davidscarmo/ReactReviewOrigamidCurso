@@ -1,0 +1,38 @@
+.ProductInfoArea 
+{
+    width: min(800px, 80%);
+    margin: auto;
+    display: flex;
+}
+
+.ProductInfoImgs
+{
+    width: min(250px, 50%);
+    padding: 0.6rem;
+}
+.ProductInfoImgs img 
+{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.ProductInfoDescription 
+{
+    width: max(300px, 50%);
+    margin-top: 0.7rem;
+}
+
+.ProductInfoDescription p > span
+{
+    color: green;
+    background-color: greenyellow;
+    padding: 0.5rem;
+}
+
+.ProductInfoDescription p 
+{
+    font-weight: 500;
+    font-family: Verdana, sans-serif;
+}

@@ -1,0 +1,12 @@
+footer
+{
+    width: min(800px, 80%);
+    height: min(100px,10%);
+    margin: 0 auto;
+}
+
+footer p 
+{
+    text-align: center;
+    color: #bbbbbb;
+}

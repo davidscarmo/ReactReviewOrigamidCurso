@@ -1,0 +1,29 @@
+.productArea 
+{
+    width: min(800px, 80%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productItem 
+{
+    width: min(240px, 33%);
+    margin: 0.6rem;
+    text-decoration: none;
+}
+
+.productItem img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.productItem p 
+{
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.2rem;
+}

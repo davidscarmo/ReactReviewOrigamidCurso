@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 import About from './Pages/About';
 import ProductInfo from './Pages/ProductInfo';
 import Products from './Pages/Products';
@@ -14,6 +15,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="product/:id" element={<ProductInfo />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

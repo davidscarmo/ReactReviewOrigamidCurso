@@ -1,0 +1,38 @@
+.AboutArea 
+{
+    width: min(800px, 80%);
+    margin: 0 auto;
+    display: flex;
+}
+
+.AboutImg 
+{
+    width: min(350px, 40%);
+    margin: 0.6rem;
+}
+
+.AboutImg img 
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.AboutDescription 
+{
+    width: min(350px, 50%);
+    margin-left: 0.8rem;
+}
+
+.AboutDescription p
+{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.AboutDescription span 
+{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
