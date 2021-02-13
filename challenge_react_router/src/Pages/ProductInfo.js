@@ -19,7 +19,7 @@ const ProductInfo = () => {
   return (
     <>
         {loading && <Loading />}
-        {productInfo && <section className="ProductInfoArea">
+        {productInfo && <section className="ProductInfoArea AnimationTransition">
                         <Head  title={productInfo.nome} description={productInfo.descricao} />
                         <div className="ProductInfoImgs">
                         {productInfo.fotos.map((photo) => {

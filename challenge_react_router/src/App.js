@@ -5,6 +5,8 @@ import Footer from './Components/Footer';
 import About from './Pages/About';
 import ProductInfo from './Pages/ProductInfo';
 import Products from './Pages/Products';
+
+import './Components/Animation.css';
 function App() {
 
   return (

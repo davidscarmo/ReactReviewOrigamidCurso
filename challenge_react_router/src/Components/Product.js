@@ -2,9 +2,11 @@ import React from 'react'
 import {NavLink } from 'react-router-dom';
 import Head from './Head';
 import './Product.css';
+
+
 const Product = ({products}) => {
     return ( 
-        <div className="productArea">
+        <div className="productArea AnimationTransition">
         <Head title="Produtos" description="Página dos produtos" />
             {products.map((item) => 
             {

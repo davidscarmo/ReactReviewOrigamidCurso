@@ -4,7 +4,7 @@ import Head from '../Components/Head';
 import './About.css';
 const About = () => {
     return (
-        <div className="AboutArea">
+        <div className="AboutArea AnimationTransition">
             <Head title="Sobre" description="Página Sobre" />
            <div className="AboutImg">
                  <img src={AboutImg} alt="Imagem de uma máquina de escrever"/>     
